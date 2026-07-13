@@ -4,7 +4,7 @@ A data science project that predicts a language model's **Chatbot Arena Elo rati
 from its metadata (vote count, rating variance, developer organization, and license),
 using the full historical LMSYS/Chatbot Arena leaderboard (May 2023 – July 2026).
 
-## 📊 Project Overview
+## Project Overview
 
 Each row in the dataset is a model's ranking on a published leaderboard snapshot.
 The goal is a **regression** model that predicts the `rating` (Elo score) — a measure
@@ -59,6 +59,7 @@ jupyter notebook "AI Ranking DS project.ipynb"
 AI model leaderboard rankings covering 5 arenas (text, text-style-control, vision,
 webdev, search), with Elo ratings, confidence intervals, vote counts, and ranks for
 every model at every published snapshot since May 2023.
+Can be Found on Kaggle
 
 ## Built With
 
