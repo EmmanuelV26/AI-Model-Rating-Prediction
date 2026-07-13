@@ -1,4 +1,4 @@
-# Predicting AI Model Elo Ratings 🏆
+# Predicting AI Model Elo Ratings
 
 A data science project that predicts a language model's **Chatbot Arena Elo rating**
 from its metadata (vote count, rating variance, developer organization, and license),
@@ -18,7 +18,7 @@ of human-preference quality — from features that don't leak the answer.
 | 4. Model | Linear Regression baseline vs. Random Forest |
 | 5. Evaluate | R², RMSE, feature importance, predicted-vs-actual plot |
 
-## 🔑 Key Results
+## Key Results
 
 - **Random Forest:** R² = **0.71**, RMSE ≈ **81 Elo points**
 - Big improvement over the Linear Regression baseline
@@ -26,11 +26,11 @@ of human-preference quality — from features that don't leak the answer.
 - **Takeaway:** rating stability and popularity meaningfully predict model quality,
   but ~29% of the variation remains unexplained — quality isn't fully reducible to metadata.
 
-> ⚠️ **Avoiding leakage:** `rank`, `rating_lower`, and `rating_upper` were deliberately
+>  **Avoiding leakage:** `rank`, `rating_lower`, and `rating_upper` were deliberately
 > excluded from the model — they are derived directly from the rating and would give an
 > artificially perfect score.
 
-## 🗂️ Repository Contents
+## Repository Contents
 
 | File | Description |
 |------|-------------|
@@ -40,7 +40,7 @@ of human-preference quality — from features that don't leak the answer.
 | `arena_rating_model.pk1` | Trained Random Forest model (load with `joblib.load`) |
 | `requirements.txt` | Python dependencies |
 
-## 🚀 Getting Started
+## Getting Started
 
 ```bash
 # 1. Clone the repo
@@ -54,12 +54,12 @@ pip install -r requirements.txt
 jupyter notebook "AI Ranking DS project.ipynb"
 ```
 
-## 📈 Dataset
+## Dataset
 
 AI model leaderboard rankings covering 5 arenas (text, text-style-control, vision,
 webdev, search), with Elo ratings, confidence intervals, vote counts, and ranks for
 every model at every published snapshot since May 2023.
 
-## 🛠️ Built With
+## Built With
 
 Python · pandas · NumPy · matplotlib · seaborn · scikit-learn
