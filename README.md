@@ -40,6 +40,11 @@ of human-preference quality — from features that don't leak the answer.
 | `arena_rating_model.pk1` | Trained Random Forest model (load with `joblib.load`) |
 | `requirements.txt` | Python dependencies |
 
+## Images
+<img width="1480" height="805" alt="frontier" src="https://github.com/user-attachments/assets/b0968fd0-15ed-4ba8-bddd-33d8f931f333" />
+<img width="1479" height="881" alt="org_dominance" src="https://github.com/user-attachments/assets/6f252f9e-50a4-49ce-b49f-80841a8042c9" />
+<img width="1481" height="805" alt="top_models_race" src="https://github.com/user-attachments/assets/d701dd46-1614-46dc-a21b-4707f18e006c" />
+
 ## Getting Started
 
 ```bash
