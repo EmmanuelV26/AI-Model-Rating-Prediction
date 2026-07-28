@@ -49,7 +49,7 @@ of human-preference quality — from features that don't leak the answer.
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/<EmmanuelV26>/ai-model-rating-prediction.git
+git clone https://github.com/EmmanuelV26/ai-model-rating-prediction.git
 cd ai-model-rating-prediction
 
 # 2. Install dependencies
