@@ -35,7 +35,7 @@ of human-preference quality — from features that don't leak the answer.
 | File | Description |
 |------|-------------|
 | `AI Ranking DS project.ipynb` | The full analysis notebook |
-| `ai_model_arena_rankings.csv.csv` | Raw dataset (all snapshots, all arenas) |
+| `ai_model_arena_rankings.csv` | Raw dataset (all snapshots, all arenas) |
 | `latest_text_leaderboard.csv` | Cleaned modeling dataset (latest text leaderboard) |
 | `arena_rating_model.pk1` | Trained Random Forest model (load with `joblib.load`) |
 | `requirements.txt` | Python dependencies |
